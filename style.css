@@ -1,0 +1,151 @@
+/*This resets all attributes to whatever you put in here*/
+/**{
+    margin:0px;
+    padding:0px;
+}*/
+.clr {
+    clear:both;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    color: crimson;
+}
+h1{
+    color:crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+} /*comment*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #262626;
+    line-height: 1.6em;
+    margin:0px;
+}
+.button {
+    background-color:gray;
+}
+.container {
+    width:85%;
+    margin:auto;
+}
+.box1 {
+    background-color: #f2f2f2  ;
+    border:10px solid;
+    border-top-color: #d9d9d9;
+    border-right-color: #d9d9d9;
+    border-left-color: #b3b3b3;
+    border-bottom-color: #b3b3b3;
+    padding: 5px;
+}
+.categories {
+    margin:auto;
+    width:50%;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding:10px;
+}
+.categories ul {
+    text-align: left;
+    list-style: none;
+}
+.categories h2 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.myForm {
+    padding:20px;
+    margin:auto;
+    width:50%;
+}
+.myForm .formDiv {
+    padding-bottom:10px;
+}
+.myForm label {
+    display:block;
+    padding:10px;
+    width:100%;
+    text-align: center;
+    color: white;
+}
+.myForm input[type="text"], .myForm textarea{
+    width:100%;
+    margin:auto;
+}
+.block {
+    background-color:white;
+    float:left;
+    width:33.3%;
+    padding:10px;
+    box-sizing:border-box;
+}
+.block h3 {
+    text-transform: uppercase;
+    color: crimson;
+}
+#mainBox {
+    margin:10px;
+    float:left;
+    width:65%;
+    box-sizing: border-box;
+    background-color:white;
+    padding:10px;
+}
+#sidebar {
+    margin:10px;
+    float:right;
+    width:25%;
+    box-sizing: border-box;
+    background-color:white;
+    padding:10px
+}
+.pBox {
+    width:800px;
+    height:500px;
+    border: 1px solid white;
+    margin:50px;
+    position:relative;
+    background-image: url("../img/bgimg.svg");
+    background-position: center center;
+}
+.pBox h1 {
+    position:absolute;
+    top:40px;
+}
+.pBox h2 {
+    position:absolute;
+    top:100px;
+    left:300px;
+}
+
+.fixme {
+    position:fixed; 
+    top:0px;
+}
+
+.mylist li:first-child{
+    color:crimson;
+}
+.mylist li:last-child{
+    color:gray;
+}
+.mylist li:nth-child(3){
+    color:blueviolet;
+}
+.mylist li:nth-child(even){
+    background:grey;
+}
+
+@media (max-width:600px) {
+    .block {
+        width:100%;
+        float:none;
+    }
+}
